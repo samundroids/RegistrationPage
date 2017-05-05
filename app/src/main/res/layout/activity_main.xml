@@ -179,7 +179,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="@color/ud_white"
-                android:onClick="btn_submit"
+                android:onClick="sendMessage"
                 android:shadowColor="@color/text_shadow"
                 android:shadowDx="1"
                 android:shadowDy="1"
