@@ -10,7 +10,7 @@
     <string name="password_SU">Your password</string>
     <string name="or">or</string>
     <string name="create_account">  Create Account  </string>
-    <string name="orr">Verify</string>
+    <string name="orr"> or </string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="login">Login</string>
     <string name="sign_me_up">PROCEED</string>

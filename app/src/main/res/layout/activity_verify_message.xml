@@ -28,12 +28,13 @@
                 android:layout_height="wrap_content"
                 android:text="@string/please_verify_your_credentials"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="40dp"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="@color/colorAccent"
                 android:fontFamily="serif"
                 />
+
 
 
             <TextView
@@ -52,10 +53,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/verify_page_textview_size"
-                    android:text="Text 1 "
+                    android:text="Full Name"
                     android:layout_below="@+id/tv_verify_page_fname"
-
                     />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                style="@style/verify_page_horizontal_line"
+                android:layout_below="@+id/tv_newmsg1"
+                />
 
             <TextView
                 android:id="@+id/tv_verify_page_email"
@@ -72,10 +79,17 @@
                     android:id="@+id/tv_newmsg2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Text 2"
+                    android:text="Email"
                     android:layout_below="@+id/tv_verify_page_email"
                     style="@style/verify_page_textview_size"
                     />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                style="@style/verify_page_horizontal_line"
+                android:layout_below="@+id/tv_newmsg2"
+                />
 
             <TextView
                 android:id="@+id/tv_verify_page_password"
@@ -93,14 +107,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/verify_page_textview_size"
-                    android:text="Text 3"
+                    android:text="Pass"
                     android:layout_below="@+id/tv_verify_page_password"
                     />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                style="@style/verify_page_horizontal_line"
+                android:layout_below="@+id/tv_newmsg3"
+                />
+
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 >
+
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
